@@ -1,0 +1,7 @@
+extends layout
+
+block header
+  p Yo
+    
+block content
+  h2 Sale ends in #{h.moment().endOf('day').fromNow()}
