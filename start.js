@@ -8,7 +8,7 @@ if (major <= 7 && minor <= 5) {
 }
 
 // import environmental variables from our variables.env file
-// require('dotenv').config({ path: 'variables.env' });
+require('dotenv').config({ path: 'variables.env' });
 // process.env.NODE_ENV="development"; // NOTE REVIEW TODO TAKE OUT WHEN GOIG TO PRODUCTION
 // console.log("process.env.NODE_ENV: "+ process.env.NODE_ENV);
 // Connect to our Database and handle an bad connections
